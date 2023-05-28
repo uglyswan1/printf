@@ -9,6 +9,7 @@
  * @precision: Precision specification
  * @size: Size specifier
  * @width: get width
+ * Return: the value of a pointer variable
  */
 int print_pointer(va_list types, char buffer[],
 	int flags, int width, int precision, int size)
