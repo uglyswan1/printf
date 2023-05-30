@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- * is_printable - Evaluates if a char is printable.
+ * is_printable - Evaluates if a char is print table.
  * @c: Char to be evaluated.
- * Return: 1 if c is printable, 0 otherwise.
+ * Return: 1 if c is print table, 0 otherwise.
  */
 
 int is_printable(char c)
@@ -52,6 +52,7 @@ return (0);
  * @num: Number to be casted.
  * @size: Number indicating the type to be casted.
  * Return: Casted value of num.
+ *
  */
 
 long int convert_size_number(long int num, int size)
