@@ -1,13 +1,13 @@
 #include "main.h"
 
-/************************* WRITE HANDLE *************************/
+/********** WRITE HANDLE ************/
 /**
  * handle_write_char - Prints a string.
  * @c: Char types.
  * @buffer: Buffer array to handle print.
  * @flags: Calculates active flags.
- * @width: Get width.
- * @precision: Precision specifier.
+ * @width: Get the width.
+ * @precision: Precision specifier pacifier.
  * @size: Size specifier.
  * Return: Number of chars printed.
  */
@@ -15,7 +15,7 @@
 int handle_write_char(char c, char buffer[],
 	int flags, int width, int precision, int size)
 {
-/* char is stored at left and padding at buffer's right */
+/* the char is stored at left and the padding at buffer's right */
 int i = 0;
 char padd = ' ';
 UNUSED(precision);
@@ -39,16 +39,16 @@ write(1, &buffer[0], 1));
 return (write(1, &buffer[0], 1));
 }
 
-/************************* WRITE NUMBER *************************/
+/******** WRITE NUMBER **********/
 /**
  * write_number - Prints a string.
  * @is_negative: Lista of arguments.
  * @ind: Char types.
- * @buffer: Buffer array to handle print.
+ * @buffer: Buffer array to handle the print.
  * @flags: Calculates active flags.
- * @width: Get width.
+ * @width: Get the width.
  * @precision: Precision specifier.
- * @size: Size specifier.
+ * @size: Size pacifier.
  * Return: Number of chars printed.
  */
 
@@ -78,7 +78,7 @@ length, padd, extra_ch));
  * @width: width.
  * @prec: Precision specifier.
  * @length: Number length.
- * @padd: Pading char.
+ * @padd: Padding char.
  * @extra_c: Extra char.
  * Return: Number of printed chars.
  */
