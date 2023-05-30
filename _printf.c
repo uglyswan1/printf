@@ -3,9 +3,9 @@
 void print_buffer(char buffer[], int *buff_index);
 
 /**
- * _printf - produces output according to a format
- * @format: format of output
- * Return: number of characters printed
+ * _printf - Produces the output according to a format.
+ * @format: Format of output which is a string.
+ * Return: Number of characters printed I guess.
  */
 
 int _printf(const char *format, ...)
@@ -47,8 +47,8 @@ return (printed_chars);
 }
 
 /**
- * print_buffer - Prints the contents of the buffer if it exist
- * @buffer: Array of chars
+ * print_buffer - Prints the contents of the buffer if it exist.
+ * @buffer: Array of chars.
  * @buff_index: Index at which to add next char, represents the length.
  */
 
