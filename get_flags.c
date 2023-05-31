@@ -1,7 +1,11 @@
 #include "main.h"
 
 /**
+<<<<<<< HEAD
 <<<<<<< HEAD >>>>>>>
+=======
+<<<<<<< HEAD >>>>>>> 
+>>>>>>> 4c751d41a410c7544db9e3c1500726a7cbbd7002
  * get_flags - Calculates active flags
  * @format: Formatted string in which to print the argument.
  * get_flags - Calculates active flags
